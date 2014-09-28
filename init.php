@@ -3,5 +3,5 @@
 Route::set('kohana-deploy', 'deploy(-<token>)')
 	->defaults(array(
 		'controller' => 'deploy',
-		'action'     => 'index'
+		'action'     => 'deploy'
 	));
