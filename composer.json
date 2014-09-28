@@ -1,0 +1,24 @@
+{
+	"name"       : "alle/kohana-deploy",
+	"type"       : "kohana-module",
+	"description": "Kohana deployment tool",
+	"keywords"   : ["kohana", "deploy", "git", "composer", "rsync"],
+	"homepage"   : "https://github.com/alle/kohana-deploy",
+	"license"    : "MIT",
+	"authors"    : [
+		{
+			"name"    : "Alessandro Frangioni",
+			"email"   : "alessandro.frangioni@gmail.com",
+			"role"    : "Developer"
+		}
+	],
+	"require": {
+		"kohana/core"       : "3.3.*",
+		"kohana/cache"      : "3.3.*",
+		"kohana/minion"     : "3.3.*",
+		"alle/email"        : "dev-3.3/master"
+	},
+	"config": {
+		"vendor-dir": "vendor"
+	}
+}
